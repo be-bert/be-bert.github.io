@@ -16,7 +16,7 @@ html *{
 }
 
 .btn-primary {
-  font-size: 12pt;
+  font-size: 10pt;
   font-weight: 700;
   color: #D8DCF2;
   background-color: transparent;
@@ -35,10 +35,11 @@ html *{
 }
 
 #space-below-main-nav-buttons {
-  margin-bottom: 100pt;
+  margin-bottom: 150pt;
 }
 
 input[type=email] {
+  font-size: 10pt;
   border: 1px solid #8692D8;
   border-radius: 6pt;
   padding: 6px 12px;
@@ -53,7 +54,7 @@ input[type=email] {
 .email-input-span {
     display: block;
     overflow: hidden;
-    padding-right: 8pt;
+    padding-right: 6pt;
 }
 
 ::-webkit-input-placeholder { /* Edge */
