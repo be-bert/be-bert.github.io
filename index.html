@@ -20,31 +20,32 @@
 
   <body class= "blueBackgroundColor">
     <!-- Full Screen Size Container -->
-    <div class="vh-100 d-flex align-items-center justify-content-center">
+    <div class="vh-100 d-flex align-items-center justify-content-center" style="min-height: 350pt">
       <div class="container">
-
+        <!-- Logo -->
         <div class="row">
           <div class="col-sm-6 mb-3 mx-auto">
               <img src="resources/bitsmudge_logo.svg" alt="BitSmudge Logo">
           </div>
         </div>
-
+        <!-- NAV buttons under logo -->
         <div class="row" id="space-below-main-nav-buttons">
           <div class="col d-flex justify-content-center">
-            <button type="button" class="btn btn-primary", style="margin-right: 20pt;">
-              View Games
-            </button>
-            <button type="button" class="btn btn-primary social-button d-flex align-items-center justify-content-center", style="margin-right: 6pt;">
+            <a class="btn btn-primary" href="games/flarts/flarts.html" role="button" style="margin-right: 20pt;">View Games</a>
+            <a class="btn btn-primary social-button d-flex align-items-center justify-content-center" href="https://twitter.com/BitSmudge" role="button" style="margin-right: 6pt;">
               <img src="resources/twitter-icon.svg" alt="twitter" class="w-100">
-            </button>
-            <button type="button" class="btn btn-primary social-button d-flex align-items-center justify-content-center">
+            </a>
+            <a class="btn btn-primary social-button d-flex align-items-center justify-content-center" href="https://www.instagram.com/bitsmudge/" role="button">
               <img src="resources/ig-icon.svg" alt="instagram" class="w-100">
-            </button>
+            </a>
           </div>
         </div>
-
+        <!-- Sign Up Form -->
         <div class="row">
           <div class="col-sm-6 mx-auto" style="padding: 0pt 50pt;">
+            <div class="signup-copy text-center">
+              Sign up for my newsletter and get <b>beta invites</b> for my games and updates on what's new.
+            </div>
             <!-- Begin Mailchimp Signup Form -->
             <form action="https://flarts.us12.list-manage.com/subscribe/post?u=33bee8f28d1a5b3a6ab2743ec&amp;id=1b1824723d" method="post" name="mc-embedded-subscribe-form" target="_blank" class="form-inline" novalidate>
 
@@ -52,7 +53,6 @@
               <div class="email-input-span">
                 <input type="email" value="" name="EMAIL" placeholder="Email" class="float-sm-left" required>
               </div>
-
               <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
               <div style="position: absolute; left: -5000px;" aria-hidden="true">
                 <input type="text" name="b_33bee8f28d1a5b3a6ab2743ec_1b1824723d" tabindex="-1" value="">
@@ -63,28 +63,16 @@
       </div>
     </div>
 
-
-
-
-
-
-
-
-
-    <div class="darkBlueBackgroundColor bottomSectionSize">
-      <div class="container h-100">
-        <div class="row h-100">
-          <div class="col d-flex align-items-center justify-content-center">
-            <form action="https://flarts.us12.list-manage.com/subscribe/post?u=33bee8f28d1a5b3a6ab2743ec&amp;id=8486dac6ab" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-             <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                  <input type="text" name="b_33bee8f28d1a5b3a6ab2743ec_8486dac6ab" tabindex="-1" value="">
-                </div>
-                <div class="clear">
-                  <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">
-                </div>
-            </form>
+    <div class="darkBlueBackgroundColor footer d-flex align-items-center">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            Copyright 2021 BitSmudge LLC
+          </div>
+          <div class="col d-flex justify-content-end">
+            <button type="button" class="btn btn-primary btn-sm">
+              Privacy Policy
+            </button>
           </div>
         </div>
       </div>
