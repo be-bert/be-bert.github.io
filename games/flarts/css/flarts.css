@@ -1,0 +1,209 @@
+html *{
+  font-family: 'Dosis', sans-serif !important;
+}
+
+body {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cdffe6+0,ffffff+100 */
+  background: #cdffe6; /* Old browsers */
+  background: -moz-linear-gradient(top,  #cdffe6 0%, #ffffff 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #cdffe6 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #cdffe6 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdffe6', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+  background-repeat: no-repeat;
+  margin-top: 50px;
+}
+
+html, body {
+    height: 100%;
+}
+
+form {
+  padding: 0;
+  margin: 0;
+}
+
+@keyframes cloud1aAnim {
+  0% { left: -10% }
+  100% { left: 100% }
+}
+
+@keyframes cloud1bAnim {
+  0% { left: -100% }
+  100% { left: -10% }
+}
+
+@keyframes cloud2aAnim {
+  0% { right: -1.5% }
+  100% { right: -140% }
+}
+
+@keyframes cloud2bAnim {
+  0% { right: 140% }
+  100% { right: -1.5% }
+}
+
+@keyframes cloud3aAnim {
+  0% { left: 45% }
+  100% { left: 145% }
+}
+
+@keyframes cloud3bAnim {
+  0% { left: -45% }
+  100% { left: 45% }
+}
+
+#site-bg-container {
+  z-index: 1;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#site-bg {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#site-content {
+  z-index:10;
+  position: absolute;
+  width: 100%;
+}
+
+#cloud1a {
+  animation: cloud1aAnim;
+  animation-duration: 70s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  z-index:2;
+  position: absolute;
+  top: 17%;
+  left: -10%
+}
+
+#cloud1b {
+  animation: cloud1bAnim;
+  animation-duration: 70s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  z-index:2;
+  position: absolute;
+  top: 17%;
+  left: -100%
+}
+
+#cloud2a {
+  animation: cloud2aAnim;
+  animation-duration: 80s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  z-index:1;
+  position: absolute;
+  top: 50%;
+  right: -1.5%;
+}
+
+#cloud2b {
+  animation: cloud2bAnim;
+  animation-duration: 80s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  z-index:1;
+  position: absolute;
+  top: 50%;
+  right: -100%;
+}
+
+#cloud3a {
+  animation: cloud3aAnim;
+  animation-duration: 65s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  z-index:3;
+  position: absolute;
+  top: 0%;
+  left: 45%;
+}
+
+#cloud3b {
+  animation: cloud3bAnim;
+  animation-duration: 65s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  z-index:3;
+  position: absolute;
+  top: 0%;
+  left: -45%;
+}
+
+.presskit {
+  margin: 20px;
+  padding: 8px 16px;
+  border-radius: 9px;
+  font-weight: 800;
+  background-color: rgba(79, 72, 59, 0.08);
+  border: 0;
+  color: #4F483B;
+  font-size: 10pt;
+}
+
+.presskit:hover {
+  background-color: rgba(79, 72, 59, 0.2);
+  color: #4F483B;
+}
+
+.presskit:active {
+  background-color: rgba(79, 72, 59, 0.4);
+  color: #4F483B;
+}
+
+.mailing-input {
+  max-width: 330px;
+  width: 80%;
+  background-color: #fff;
+  border: 1px solid #B2997A;
+  border-radius: 9px;
+  margin: 0 auto;
+}
+
+.input-box {
+  float: left;
+  max-width: 266px;
+  width: 80.6%;
+}
+
+.input-box input {
+  padding: 4px 6px;
+  border: 0px;
+  margin: 2px;
+  width: 100%;
+}
+
+.input-button {
+  width: 90px;
+  position: relative;
+  float: right;
+  padding-right: 65px;
+  margin-left: -95px;
+}
+
+.input-button img {
+  position: absolute;
+  top: -7px;
+}
+
+.social-button {
+  margin: 5px;
+  border: 0;
+}
+
+.logo img {
+  max-width: 550px;
+  width: 80%;
+  margin: auto;
+  height: auto;
+}
