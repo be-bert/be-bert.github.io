@@ -10,7 +10,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
     <!-- CSS -->
-    <link href="css/flarts.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/flarts.css">
+    <link rel="stylesheet" href="css/glightbox.css" />
+
+    <!-- <script src="js/glightbox.js"></script> -->
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&display=swap" rel="stylesheet">
@@ -78,6 +81,25 @@
       </a>
       </div>
 
+      <!-- Copy -->
+      <div class="container">
+        <div class="row justify-content-md-center">
+          <div class="col text-center m-5 copy">
+            Take aim and launch your Flart (flying dart) through precision based, quirky obstacle-filled levels.<p>
+
+            <ul>
+              <li>90 levels to test your Flart flinging skills.</li>
+              <li>Pop piñatas and aim for a bullseye on the Flartboard</li>
+              <li>Challenge a friend to a match.</li>
+              <li>Unlock some fancy hats and glasses.</li>
+            </ul>
+
+            Stretch your thumbs and jump into this quick arcade-style game. Controls are simple, but Flarts is sure to challenge!
+            <p>
+          </div>
+        </div>
+      </div>
+
       <!-- Video -->
       <div class="container">
         <div class="ratio ratio-16x9 trailer">
@@ -85,7 +107,103 @@
         </div>
       </div>
 
+      <!-- Gallery -->
+      <div class="container">
+        <div class="row g-0 d-flex align-items-center justify-content-center">
+          <div class="col-md-auto m-2">
+            <a href="resources/screen1@2x.png" class="glightbox">
+                <img src="resources/screen1-thumb.jpg" srcset="resources/screen1-thumb@2x.png 2x" alt="image" class="image-thumb rounded-3"/>
+            </a>
+          </div>
+          <div class="col-md-auto m-2">
+            <a href="resources/screen2@2x.png" class="glightbox">
+                <img src="resources/screen2-thumb.jpg" srcset="resources/screen2-thumb@2x.png 2x" alt="image" class="image-thumb rounded-3"/>
+            </a>
+          </div>
+          <div class="col-md-auto m-2">
+            <a href="resources/screen3@2x.png" class="glightbox">
+                <img src="resources/screen3-thumb.jpg" srcset="resources/screen3-thumb@2x.png 2x" alt="image" class="image-thumb rounded-3"/>
+            </a>
+          </div>
+          <div class="col-md-auto m-2">
+            <a href="resources/screen4@2x.png" class="glightbox">
+                <img src="resources/screen4-thumb.jpg" srcset="resources/screen4-thumb@2x.png 2x" alt="image" class="image-thumb rounded-3"/>
+            </a>
+          </div>
+          <div class="col-md-auto m-2">
+            <a href="resources/screen5@2x.png" class="glightbox">
+                <img src="resources/screen5-thumb.jpg" srcset="resources/screen5-thumb@2x.png 2x" alt="image" class="image-thumb rounded-3"/>
+            </a>
+          </div>
+          <div class="col-md-auto m-2">
+            <a href="resources/screen6@2x.png" class="glightbox">
+                <img src="resources/screen6-thumb.jpg" srcset="resources/screen6-thumb@2x.png 2x" alt="image" class="image-thumb rounded-3"/>
+            </a>
+          </div>
+          <div class="col-md-auto m-2">
+            <a href="resources/screen7@2x.png" class="glightbox">
+                <img src="resources/screen7-thumb.jpg" srcset="resources/screen7-thumb@2x.png 2x" alt="image" class="image-thumb rounded-3"/>
+            </a>
+          </div>
+          <div class="col-md-auto m-2">
+            <a href="resources/screen8@2x.png" class="glightbox">
+                <img src="resources/screen8-thumb.jpg" srcset="resources/screen8-thumb@2x.png 2x" alt="image" class="image-thumb rounded-3"/>
+            </a>
+          </div>
+          <div class="col-md-auto m-2">
+            <a href="resources/screen9@2x.png" class="glightbox">
+                <img src="resources/screen9-thumb.jpg" srcset="resources/screen9-thumb@2x.png 2x" alt="image" class="image-thumb rounded-3"/>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
+
+    <!-- https://github.com/biati-digital/glightbox -->
+    <script src="js/glightbox.js"></script>
+    <script>
+        var lightbox = GLightbox();
+        lightbox.on('open', (target) => {
+            console.log('lightbox opened');
+        });
+        var lightboxDescription = GLightbox({
+            selector: '.glightbox2'
+        });
+        var lightboxVideo = GLightbox({
+            selector: '.glightbox3'
+        });
+        lightboxVideo.on('slide_changed', ({ prev, current }) => {
+            console.log('Prev slide', prev);
+            console.log('Current slide', current);
+
+            const { slideIndex, slideNode, slideConfig, player } = current;
+
+            if (player) {
+                if (!player.ready) {
+                    // If player is not ready
+                    player.on('ready', (event) => {
+                        // Do something when video is ready
+                    });
+                }
+
+                player.on('play', (event) => {
+                    console.log('Started play');
+                });
+
+                player.on('volumechange', (event) => {
+                    console.log('Volume change');
+                });
+
+                player.on('ended', (event) => {
+                    console.log('Video ended');
+                });
+            }
+        });
+
+        var lightboxInlineIframe = GLightbox({
+            selector: '.glightbox4'
+        });
+    </script>
 
   </body>
 </html>
