@@ -211,3 +211,13 @@ form {
 .trailer {
   margin-bottom: 50pt;
 }
+
+.image-thumb {
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0.1, 0.15), 0px 1px 8px 0 rgba(0, 0, 0.1, 0.08);
+  border: 1px solid #B2997A;
+}
+
+.copy {
+  /* border: 1px solid #B2997A; */
+  list-style: inside;
+}
