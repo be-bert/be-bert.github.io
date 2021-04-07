@@ -2,7 +2,7 @@
 <product>
   <title>Flarts. The game of flying darts!</title>
   <release-date>TBD</release-date>
-  <website>bitsmudge.com/games/flarts</website>
+  <website>https://www.bitsmudge.com/games/flarts</website>
 
   <!-- Link to request press copy: -->
   <!-- <press-copy-request></press-copy-request> -->
@@ -84,7 +84,7 @@
       <role>Developement, art, and music</role>
 
       <!-- Optional: -->
-      <website>bitsmudge.com</website>
+      <website>https://www.bitsmudge.com</website>
     </credit>
   </credits>
 
