@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<company>
+  <title>BitSmudge</title>
+  <based-in>Grand Rapids, MI</based-in>
+  <founding-date>March 2021</founding-date>
+  <website>BitSmudge.com</website>
+  <press-contact>
+    bitsmudge@bitsmudge.com
+  </press-contact>
+
+  <!-- Google analytics ID: -->
+  <analytics></analytics>
+
+<!--  <phone></phone>-->
+<!--  <address>-->
+<!--    <line>-->
+      <!-- Street -->
+<!--    </line>-->
+<!--    <line>-->
+        <!-- City -->
+<!--    </line>-->
+<!--    <line>-->
+      <!-- Country -->
+<!--    </line>-->
+<!--  </address>-->
+
+  <socials>
+    <social>
+      <name>Twitter</name>
+      <link>
+          https://twitter.com/BitSmudge
+      </link>
+    </social>
+    <social>
+      <name>Instagram</name>
+      <link>
+          https://www.instagram.com/bitsmudge/
+      </link>
+    </social>
+  </socials>
+
+  <description>BitSmudge focuses on mobile games and is run by Ben Lambert</description>
+
+  <!-- Choose between a single block: -->
+  <history>Ben started as an illustrator/animator making artwork and animations for Flash based videos and games.  After the release of the iPhone, he began to learn iOS development.  Currently, he works full time doing mobile development and creates games between that and managing a family life.</history>
+
+  <!-- Or multiple blocks: -->
+  <!--
+  <histories>
+    <history>
+      <header></header>
+      <text></text>
+    </history>
+  </histories>
+  -->
+
+  <trailers>
+    <trailer>
+      <name>Flarts Gameplay Trailer</name>
+
+      <!-- Pick one: -->
+      <youtube>
+          9A7BVNncFHM
+      </youtube>
+    </trailer>
+  </trailers>
+
+<!--  <awards>-->
+<!--    <award>-->
+<!--      <description></description>-->
+<!--      <info></info>-->
+<!--    </award>-->
+<!--  </awards>-->
+
+<!--  <quotes>-->
+<!--    <quote>-->
+<!--      <description></description>-->
+<!--      <name></name>-->
+<!--      <website></website>-->
+<!--      <link></link>-->
+<!--    </quote>-->
+<!--  </quotes>-->
+
+<!--  <additionals>-->
+<!--    <additional>-->
+<!--      <title></title>-->
+<!--      <description></description>-->
+<!--      <link></link>-->
+<!--    </additional>-->
+<!--  </additionals>-->
+
+<!--  <credits>-->
+<!--    <credit>-->
+<!--      <person></person>-->
+<!--      <role></role>-->
+<!---->
+      <!-- Optional: -->
+<!--      <website></website>-->
+<!--    </credit>-->
+<!--  </credits>-->
+
+  <contacts>
+    <contact>
+      <name>Ben Lambert</name>
+
+      <!-- Pick one: -->
+      <mail>bitsmudge@bitsmudge.com</mail>
+      <link></link>
+    </contact>
+  </contacts>
+</company>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<product>
+  <title>Flarts. The game of flying darts!</title>
+  <release-date>TBD</release-date>
+  <website>bitsmudge.com/games/flarts</website>
+
+  <!-- Link to request press copy: -->
+  <!-- <press-copy-request></press-copy-request> -->
+
+  <platforms>
+    <platform>
+      <name>iOS App Store</name>
+      <link></link>
+    </platform>
+  </platforms>
+
+  <prices>
+    <price>
+      <currency>USD</currency>
+      <value>Free</value>
+    </price>
+  </prices>
+
+  <description>Flarts is a quirky game about angles, accuracy, and avoidance.  Take aim and launch your Flart (flying + dart = Flart) through precision based, obstacle-filled levels. Pop piñatas and aim for a bullseye on the Flartboard.  Stretch your thumbs and jump into this quick arcade-style game. Controls are simple, but Flarts is sure to challenge!</description>
+
+  <!-- Choose between a single block: -->
+<!--  <history></history>-->
+
+  <!-- Or multiple blocks: -->
+  <!--
+  <histories>
+    <history>
+      <header></header>
+      <text></text>
+    </history>
+  </histories>
+  -->
+
+  <features>
+    <feature>90 levels to test your Flart flinging skills.</feature>
+    <feature>Challenge a friend to a high score match.</feature>
+    <feature>Unlock some fancy hats and glasses.</feature>
+    <feature>Climb up the leaderboards.</feature>
+  </features>
+
+  <trailers>
+    <trailer>
+      <name>Gameplay Trailer</name>
+
+      <!-- Pick one: -->
+      <youtube>
+          9A7BVNncFHM
+      </youtube>
+    </trailer>
+  </trailers>
+
+<!--  <awards>-->
+<!--    <award>-->
+<!--      <description></description>-->
+<!--      <info></info>-->
+<!--    </award>-->
+<!--  </awards>-->
+
+<!--  <quotes>-->
+<!--    <quote>-->
+<!--      <description></description>-->
+<!--      <name></name>-->
+<!--      <website></website>-->
+<!--      <link></link>-->
+<!--    </quote>-->
+<!--  </quotes>-->
+
+<!--  <additionals>-->
+<!--    <additional>-->
+<!--      <title></title>-->
+<!--      <description></description>-->
+<!--      <link></link>-->
+<!--    </additional>-->
+<!--  </additionals>-->
+
+  <credits>
+    <credit>
+      <person>Ben Lambert</person>
+      <role>Developement, art, and music</role>
+
+      <!-- Optional: -->
+      <website>bitsmudge.com</website>
+    </credit>
+  </credits>
+
+  <contacts>
+    <contact>
+      <name>Ben Lambert</name>
+
+      <!-- Pick one: -->
+      <mail>bitsmudge@bitsmudge.com</mail>
+      <link></link>
+    </contact>
+  </contacts>
+</product>
